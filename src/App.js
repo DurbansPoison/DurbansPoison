@@ -1,9 +1,13 @@
 import React from 'react';
 import './App.css';
-// import TermNav from "./components/TermNav/TermNav.js";
+
 
 function App() {
-	return <div className="App">{/* <TermNav /> */}</div>;
+	return (
+		<div className="App">
+			<p>t est test test</p>
+		</div>
+	);
 }
 
 export default App();
