@@ -1,13 +1,11 @@
 import React from 'react';
 
-
 function Interests() {
-    return (
-        <>
-
-        </>
-    )
+	return (
+		<div>
+			<p>test test Interests</p>
+		</div>
+	);
 }
-
 
 export default Interests;
