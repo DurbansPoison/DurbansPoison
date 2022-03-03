@@ -7,11 +7,11 @@ import {
 }  from 'react-router-dom';
 import Terminal from 'react-hackterm';
 
-import Root from '../../pages/root/root.js';
-import Projects from '../../pages/projects/projects.js';
-import Links from '../../pages/links/links.js';
-import Interests from '../../pages/interests/interests.js';
-import About from '../../pages/about/about.js'
+import Root from '../../pages/root/Root.js';
+import Projects from '../../pages/projects/Projects.js';
+import Links from '../../pages/links/Links.js';
+import Interests from '../../pages/interests/Interests.js';
+import About from '../../pages/about/About.js'
 // want to use figlet to say developer name in font on hackterm
 // import figlet from 'figlet'
 // import useFiglet from 'use-figlet-react'
