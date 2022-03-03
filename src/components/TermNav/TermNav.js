@@ -1,7 +1,8 @@
+/* eslint-disable no-undef */
 import React from 'react';
 import {
-  BrowserRouter as Router,
-  Route,
+  Router,
+  Route
 }  from 'react-router-dom';
 import Terminal from 'react-hackterm';
 
@@ -10,25 +11,26 @@ import Projects from '../../pages/projects/projects.js';
 import Links from '../../pages/links/links.js';
 import Interests from '../../pages/interests/interests.js';
 import About from '../../pages/about/about.js'
-//want to use figlet to say developer name in font on hackterm
+// want to use figlet to say developer name in font on hackterm
 // import figlet from 'figlet'
-//import useFiglet from 'use-figlet-react'
-//^^^^^^^^^^^documentation on use-figlet-hook in react   https://npm.io/package/react-hook-figlet
+// import useFiglet from 'use-figlet-react'
+// ^^^^^^^^^^^documentation on use-figlet-hook in react   https://npm.io/package/react-hook-figlet
 
 
 
-//define routes and paths here 
-//let pathProjects = Projects().setPath({
+// define routes and paths here 
+// let pathProjects = Projects().setPath({
 //     thisPath(pathFromRoot('/projects')
 
 // }
 
 
-//find way to use figlet in hackterm
+// find way to use figlet in hackterm
 
 
 function TermNav() {
     return (
+      <div>
         <Router>
           <Route path='/'>
             <Root id='root' />
@@ -45,6 +47,7 @@ function TermNav() {
           <Route path='/about'>
             <About id='about' />
           </Route>
+        </Router>
 
                   <Terminal
         config={{
@@ -77,7 +80,7 @@ function TermNav() {
           },//would love to just use and [array] of the routes
           {
             name: "cd /projects",
-            description: "change directory: /projexts",
+            description: "change directory: /projects",
             value: '/projects',
             id: "projects"
           },
@@ -102,7 +105,7 @@ function TermNav() {
           }
         ]}
       />
-        </Router>
+       </div>
     )
 }
 

@@ -1,5 +1,3 @@
-/* eslint-disable react/jsx-no-comment-textnodes */
-// import logo from './logo.svg';
 import React from 'react';
 
 import './App.css';
@@ -9,12 +7,16 @@ import TermNav from './components/TermNav/TermNav.js';
 function App() {
   return (
     <div className="App">
+            <TermNav className="Term"/>
 
-      <TermNav className="Term"/>
+    </div>
+      // eslint-disable-next-line react/jsx-no-comment-textnodes
+      // eslint-disable-next-line react/jsx-no-comment-textnodes
+
       /*does react router logic go here or TermNav components*/
       /*ideally ^V would both be static, while the content itself would be loaded with the TermNav component*/
-     {/* /* <Footer /> */}
-         </div>
+     /* /* <Footer /> */
+     
   );
 }
 
