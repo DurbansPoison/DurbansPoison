@@ -2,7 +2,8 @@
 import React from 'react';
 import {
   Router,
-  Route
+  Route,
+  Routes
 }  from 'react-router-dom';
 import Terminal from 'react-hackterm';
 
@@ -32,6 +33,7 @@ function TermNav() {
     return (
       <div>
         <Router>
+        <Routes>
           <Route path='/'>
             <Root id='root' />
           </Route>
@@ -47,6 +49,7 @@ function TermNav() {
           <Route path='/about'>
             <About id='about' />
           </Route>
+          </Routes>
         </Router>
 
                   <Terminal

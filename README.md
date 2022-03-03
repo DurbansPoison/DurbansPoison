@@ -4,5 +4,7 @@
 ## commands
 
 ## todo
-add security features([helmet, vault, impliment sercure best practices ])
+
+add security features([helmet, vault, implement secure best practices ])
+
 ## usage
