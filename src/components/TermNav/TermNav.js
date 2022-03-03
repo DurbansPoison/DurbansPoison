@@ -30,8 +30,8 @@ import About from '../../pages/about/about.js'
 function TermNav() {
     return (
         <Router>
-          <Route path='/root'>
-            <Root id='projects' />
+          <Route path='/'>
+            <Root id='root' />
           </Route>
           <Route path="/projects">
             <Projects id='projects' />
@@ -69,7 +69,7 @@ function TermNav() {
             description: "Print working directory",
             value: "/"
           },
-          { //call into the dom the router and routes and paths
+          { //call into the dom the router and routes and paths?
             name: "cd /",
             description: "change directory: /root ",
             value: "/",
